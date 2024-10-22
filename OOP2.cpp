@@ -10,7 +10,7 @@ cout<<"......ENTER THE PUBLICATION INFORMATION........"<<endl;
 cout<<"Enter the title of publication: ";
 cin.ignore(); //IGNORE ALLOWS TO IGNORE THE NO. OF CHARACTERS FROM THE INPUT STREAM
 getline(cin, title); //GETLINE HELPS US WRITE THE NAME WITH SPACES W/O SHOWING ANY
-ERRORS OR GARBAGE VALUES
+//ERRORS OR GARBAGE VALUES
 cout<<"Enter the price of publication: ";
 cin>>price;
 }
